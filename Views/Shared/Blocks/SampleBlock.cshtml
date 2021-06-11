@@ -1,0 +1,9 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model AlloyTraining.Models.Blocks.SampleBlock
+<div>
+  @Html.PropertyFor(m => m.Name)
+    @Html.PropertyFor(m =>m.Content)
+
+</div>

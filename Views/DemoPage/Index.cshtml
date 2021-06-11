@@ -1,0 +1,12 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model AlloyTraining.Models.Pages.DemoPage
+ 
+@{ 
+    Layout = null;
+}
+<div>
+  @Html.PropertyFor(m => m.MainBody)
+    @Html.PropertyFor(m =>m.Heading)
+</div>
